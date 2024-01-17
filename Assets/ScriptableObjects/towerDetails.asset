@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7de65340e51d23b4cbb00f331e56c3a4, type: 3}
+  m_Name: towerDetails
+  m_EditorClassIdentifier: 
+  spritesList:
+  - {fileID: 21300000, guid: 034e4aaff481958438f61f9f9abdc5bc, type: 2}
+  - {fileID: 21300000, guid: ac550441d134fb9498fa424b2972f6d6, type: 2}
+  - {fileID: 21300000, guid: 89c3753600e7a99428657e97bd1df458, type: 2}
+  - {fileID: 21300000, guid: fd1792d85e53ae342a348057bbdefc80, type: 2}
+  - {fileID: 21300000, guid: aec63bd49356c5d44a3660ab20606274, type: 2}
+  towerInfos:
+  - towerName: Ballista
+    towerHealth: 4
+    RadiusAttact: 2
+    BulletTower: {fileID: 1123062418966432, guid: c2094dd840f96db49b29990b4f4181ec, type: 3}
+    ammountDamage: 1
+    bulletMoveSpeed: 5
+    AttackInterval: 3
+    towerPrice: 4
+    towerSprite: {fileID: 21300014, guid: 2d97cb46c9f04974e82cefaf95c4cf81, type: 3}
+    towerSpriteUpdated: {fileID: 21300004, guid: 2d97cb46c9f04974e82cefaf95c4cf81, type: 3}
+    towerUpdatePower: 2
+    towerUpdatePrice: 7
+    TowerPrefab: {fileID: 5524141273330898681, guid: dba33a6e93b10034fa741b81e40926a2, type: 3}
+    IsDefaultTower: 1
+  - towerName: Bowman
+    towerHealth: 4
+    RadiusAttact: 2
+    BulletTower: {fileID: 1123062418966432, guid: b443fcfad9a96fc4ba858671074aa8c8, type: 3}
+    ammountDamage: 1
+    bulletMoveSpeed: 5
+    AttackInterval: 3
+    towerPrice: 6
+    towerSprite: {fileID: 21300016, guid: 2d97cb46c9f04974e82cefaf95c4cf81, type: 3}
+    towerSpriteUpdated: {fileID: 21300002, guid: 2d97cb46c9f04974e82cefaf95c4cf81, type: 3}
+    towerUpdatePower: 2
+    towerUpdatePrice: 10
+    TowerPrefab: {fileID: 5524141273330898681, guid: dba33a6e93b10034fa741b81e40926a2, type: 3}
+    IsDefaultTower: 1
+  - towerName: Defender
+    towerHealth: 5
+    RadiusAttact: 3
+    BulletTower: {fileID: 2264956286359346608, guid: a5d5f744e671d9146aa6ddc3976c2e23, type: 3}
+    ammountDamage: 2
+    bulletMoveSpeed: 1
+    AttackInterval: 4
+    towerPrice: 3
+    towerSprite: {fileID: 21300020, guid: 2d97cb46c9f04974e82cefaf95c4cf81, type: 3}
+    towerSpriteUpdated: {fileID: 21300000, guid: 2d97cb46c9f04974e82cefaf95c4cf81, type: 3}
+    towerUpdatePower: 2
+    towerUpdatePrice: 5
+    TowerPrefab: {fileID: 5524141273330898681, guid: dba33a6e93b10034fa741b81e40926a2, type: 3}
+    IsDefaultTower: 1
+  - towerName: Magic
+    towerHealth: 5
+    RadiusAttact: 3
+    BulletTower: {fileID: 1123062418966432, guid: 6676c11316e31c048ac26c04216c6057, type: 3}
+    ammountDamage: 2
+    bulletMoveSpeed: 4
+    AttackInterval: 3
+    towerPrice: 6
+    towerSprite: {fileID: 21300026, guid: 2d97cb46c9f04974e82cefaf95c4cf81, type: 3}
+    towerSpriteUpdated: {fileID: 21300006, guid: 2d97cb46c9f04974e82cefaf95c4cf81, type: 3}
+    towerUpdatePower: 2
+    towerUpdatePrice: 10
+    TowerPrefab: {fileID: 5524141273330898681, guid: dba33a6e93b10034fa741b81e40926a2, type: 3}
+    IsDefaultTower: 1
+  - towerName: Mortar
+    towerHealth: 5
+    RadiusAttact: 3
+    BulletTower: {fileID: 1123062418966432, guid: a319064d1c59c7049918ca1b37a61c2e, type: 3}
+    ammountDamage: 3
+    bulletMoveSpeed: 3
+    AttackInterval: 4
+    towerPrice: 5
+    towerSprite: {fileID: 21300010, guid: 2d97cb46c9f04974e82cefaf95c4cf81, type: 3}
+    towerSpriteUpdated: {fileID: 21300008, guid: 2d97cb46c9f04974e82cefaf95c4cf81, type: 3}
+    towerUpdatePower: 2
+    towerUpdatePrice: 8
+    TowerPrefab: {fileID: 5524141273330898681, guid: dba33a6e93b10034fa741b81e40926a2, type: 3}
+    IsDefaultTower: 1
+  - towerName: Archer
+    towerHealth: 4
+    RadiusAttact: 2
+    BulletTower: {fileID: 1123062418966432, guid: 4c77378c4f774884da1010e572198647, type: 3}
+    ammountDamage: 2
+    bulletMoveSpeed: 3
+    AttackInterval: 3
+    towerPrice: 4
+    towerSprite: {fileID: -1135688448, guid: 5d5346cc9b651de41a5ad0da2f4f7c5b, type: 3}
+    towerSpriteUpdated: {fileID: 1819965641, guid: 5d5346cc9b651de41a5ad0da2f4f7c5b, type: 3}
+    towerUpdatePower: 2
+    towerUpdatePrice: 7
+    TowerPrefab: {fileID: 5524141273330898681, guid: dba33a6e93b10034fa741b81e40926a2, type: 3}
+    IsDefaultTower: 0

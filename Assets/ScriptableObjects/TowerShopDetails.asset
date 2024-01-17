@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa665b95caac5f046956b8b344008acd, type: 3}
+  m_Name: TowerShopDetails
+  m_EditorClassIdentifier: 
+  towerShopTemplates:
+  - towerInfo:
+      towerName: Archer
+      towerHealth: 4
+      RadiusAttact: 2
+      BulletTower: {fileID: 1123062418966432, guid: 4c77378c4f774884da1010e572198647, type: 3}
+      ammountDamage: 2
+      bulletMoveSpeed: 3
+      AttackInterval: 3
+      towerPrice: 4
+      towerSprite: {fileID: -9039487, guid: 5d5346cc9b651de41a5ad0da2f4f7c5b, type: 3}
+      towerSpriteUpdated: {fileID: -2061793540, guid: 5d5346cc9b651de41a5ad0da2f4f7c5b, type: 3}
+      towerUpdatePower: 2
+      towerUpdatePrice: 7
+      TowerPrefab: {fileID: 5524141273330898681, guid: dba33a6e93b10034fa741b81e40926a2, type: 3}
+      IsDefaultTower: 0
+    towerPrice: 20
+    itemDescription: A powerful tower with a long lifetime and destructive attack
+      power
+  - towerInfo:
+      towerName: Mediaval
+      towerHealth: 4
+      RadiusAttact: 2
+      BulletTower: {fileID: 1123062418966432, guid: 4c77378c4f774884da1010e572198647, type: 3}
+      ammountDamage: 2
+      bulletMoveSpeed: 3
+      AttackInterval: 3
+      towerPrice: 4
+      towerSprite: {fileID: 21300000, guid: e800e23387f63164c9a192857647d5a4, type: 3}
+      towerSpriteUpdated: {fileID: 21300000, guid: aafaf0a1b90e32e48b6c6f67495c91cb, type: 3}
+      towerUpdatePower: 2
+      towerUpdatePrice: 7
+      TowerPrefab: {fileID: 5524141273330898681, guid: dba33a6e93b10034fa741b81e40926a2, type: 3}
+      IsDefaultTower: 0
+    towerPrice: 30
+    itemDescription: A powerful tower with a long lifetime and destructive attack
+      power
+  - towerInfo:
+      towerName: OldTower
+      towerHealth: 4
+      RadiusAttact: 2
+      BulletTower: {fileID: 1123062418966432, guid: 4c77378c4f774884da1010e572198647, type: 3}
+      ammountDamage: 2
+      bulletMoveSpeed: 3
+      AttackInterval: 3
+      towerPrice: 4
+      towerSprite: {fileID: 21300000, guid: dc78ef03774a4154e97e9e4335a39b31, type: 3}
+      towerSpriteUpdated: {fileID: 21300000, guid: 256c3d19636fa9642b3f5f95078911ad, type: 3}
+      towerUpdatePower: 2
+      towerUpdatePrice: 7
+      TowerPrefab: {fileID: 5524141273330898681, guid: dba33a6e93b10034fa741b81e40926a2, type: 3}
+      IsDefaultTower: 0
+    towerPrice: 25
+    itemDescription: A powerful tower with a long lifetime and destructive attack
+      power
+  - towerInfo:
+      towerName: TowerTank
+      towerHealth: 4
+      RadiusAttact: 2
+      BulletTower: {fileID: 1123062418966432, guid: a319064d1c59c7049918ca1b37a61c2e, type: 3}
+      ammountDamage: 2
+      bulletMoveSpeed: 3
+      AttackInterval: 3
+      towerPrice: 4
+      towerSprite: {fileID: 21300000, guid: f7ce1ecd0146b034090856093ca54504, type: 3}
+      towerSpriteUpdated: {fileID: 21300000, guid: 438b30e5c523ab64ebcf95dc5178b6e8, type: 3}
+      towerUpdatePower: 2
+      towerUpdatePrice: 7
+      TowerPrefab: {fileID: 5524141273330898681, guid: dba33a6e93b10034fa741b81e40926a2, type: 3}
+      IsDefaultTower: 0
+    towerPrice: 40
+    itemDescription: A powerful tower with a long lifetime and destructive attack
+      power

@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3bb50fc6136c5846b2d59349ce3807d, type: 3}
+  m_Name: EnemyDetails
+  m_EditorClassIdentifier: 
+  enemyInfos:
+  - enemyName: Stank
+    enemyHealth: 3
+    enemyMoveSpeed: 0.6
+    RadiusAttact: 3
+    BulletEnemy: {fileID: 1123062418966432, guid: d8eecb085800aae4cb552eebd568675f, type: 3}
+    ammountDamage: 4
+    bulletMoveSpeed: 3
+    AttackInterval: 2
+    EnemyPrefab: {fileID: 979841258295343106, guid: ad4cf153420276843bfc6e57f4b514b4, type: 3}
+    BulletEnemyPool: []
+  - enemyName: Goblin
+    enemyHealth: 2
+    enemyMoveSpeed: 0.8
+    RadiusAttact: 3
+    BulletEnemy: {fileID: 1123062418966432, guid: 87ab55f677676bf40988bbae2c1ce823, type: 3}
+    ammountDamage: 2
+    bulletMoveSpeed: 4
+    AttackInterval: 2
+    EnemyPrefab: {fileID: 1411208284392302276, guid: e326f1a16680ccf4897508c6a8b850c3, type: 3}
+    BulletEnemyPool: []
+  - enemyName: Bat
+    enemyHealth: 0
+    enemyMoveSpeed: 1.1
+    RadiusAttact: 0
+    BulletEnemy: {fileID: 3141730054349962848, guid: d168b0b1caee0dd45b74861d075a693e, type: 3}
+    ammountDamage: 0
+    bulletMoveSpeed: 0
+    AttackInterval: 0
+    EnemyPrefab: {fileID: 3141730054349962848, guid: d168b0b1caee0dd45b74861d075a693e, type: 3}
+    BulletEnemyPool: []
+  - enemyName: Shaman
+    enemyHealth: 0
+    enemyMoveSpeed: 0.6
+    RadiusAttact: 0
+    BulletEnemy: {fileID: 4196164989469236132, guid: ce026c8b8c69c284db6cafbc4f0eb996, type: 3}
+    ammountDamage: 0
+    bulletMoveSpeed: 0
+    AttackInterval: 0
+    EnemyPrefab: {fileID: 4196164989469236132, guid: ce026c8b8c69c284db6cafbc4f0eb996, type: 3}
+    BulletEnemyPool: []
+  - enemyName: Wsaman
+    enemyHealth: 0
+    enemyMoveSpeed: 0.5
+    RadiusAttact: 0
+    BulletEnemy: {fileID: 5061566428279100874, guid: 0db9e8c3b4aa0fd4a963068e796ec86f, type: 3}
+    ammountDamage: 0
+    bulletMoveSpeed: 0
+    AttackInterval: 0
+    EnemyPrefab: {fileID: 5061566428279100874, guid: 0db9e8c3b4aa0fd4a963068e796ec86f, type: 3}
+    BulletEnemyPool: []
+  - enemyName: Orc
+    enemyHealth: 0
+    enemyMoveSpeed: 0.9
+    RadiusAttact: 3
+    BulletEnemy: {fileID: 5330088373673590517, guid: 8eefcac5bf4059e4296723ebbc281d87, type: 3}
+    ammountDamage: 3
+    bulletMoveSpeed: 3
+    AttackInterval: 2
+    EnemyPrefab: {fileID: 2222148712929680012, guid: f07d301c27868f04ca2f35d92ee5ac73, type: 3}
+    BulletEnemyPool: []
